@@ -1,0 +1,83 @@
+.table{
+        width:100%;
+    }
+    
+    .table-list thead {
+        background: rgb(52, 152, 219);
+        color:white;
+    }
+    .table-list thead tr td {
+        padding:15px 10px;
+    }
+    .table-list tbody tr td {
+        padding:10px 10px;
+        border-bottom:1px solid #adadad;
+    }
+    
+    .filtersearch{
+        width:100%;
+        padding:20px;
+        border-bottom: 1px solid black;
+    }
+    .textbox{
+        padding:10px 15px;
+    }
+    
+    .button{
+        padding:10px 15px;
+        border: 0px;
+        color:white;
+        cursor: pointer;
+    }
+    
+    .button-blue{
+        background-color: #22c3dc;
+    }
+    .button-blue:hover{
+        background-color: #64d5e6;
+    }
+    .button-green{
+        background-color: #3fdb23;
+    }
+    .button-green:hover{
+        background-color: #63df4d;
+    }
+    .button-red{
+        background-color: #d82626;
+    }
+    .button-red:hover{
+        background-color: #dd5454;
+    }
+.form-group{
+ padding:5px 15px;
+ width: 100%;
+}
+.input-mode{
+ border:1px solid silver;
+ border-radius:3px;
+ padding:10px 15px;
+ width:100%;
+}
+.cek {
+ padding:10px;
+ display:inline-block;
+ height:20px;
+ width:20px;
+}
+.btn-submit{
+ cursor:pointer;
+ padding: 10px;
+    height: 50px;
+    width: 100%;
+    display: block;
+    background-color: #2c79c0;
+    color: white;
+    font-size: 20px;
+    border: 2px solid #135592;
+    border-radius: 2px;
+}
+.form-cek label{
+ display:inline-block;
+ padding:10px;
+ line-height:10px;
+}

@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.header {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background-color:rgb(41, 128, 185);
+}
+.logo span {
+  margin-left: 15px;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+.logo h2{
+  margin-top: 8px;
+  color: #fff;
+  margin-left: 20px; 
+  margin-top: 15px;
+}
+ul {
+  list-style:none; /*menghilangkan dot list*/
+}
+a {
+  text-decoration:none; /*menghilangkan garis bawah*/
+  color: #fff; /*memberi warna hitam*/
+  font-weight:bold; /*menebalkan font menu*/
+}
+li {
+  display:inline; /*membuat menu menjadi Horizontal*/
+  float:right; /*bikin nempel ke kiri biar ga ada spasi kosong*/
+  padding-right: 30px;
+  margin-top: 5px;
+}
+ul li a:hover{
+ color: #3494de;
+}
+img{
+  margin-top: 50px;
+}
+.menu {
+  display: flex;
+  flex-flow: row wrap;
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+.box1{
+  height: 130px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 6px;
+  float: left; 
+  background-color: #3494de;
+
+}
+.box1 h2{
+  margin-left: 30px;
+  float: left;
+  margin-top: 50px;
+  color: #fff;
+}
+.box1 i{
+  font-size: 80px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: #fff;
+}
+.box2{
+  height: 130px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 6px;
+  float: right;
+  margin-right: 200px;
+  background-color: #eaac06;
+}
+.box2 h2{
+  margin-left: 30px;
+  float: left;
+  margin-top: 50px;
+  color: #fff;
+}
+.box2 i{
+  font-size: 80px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: #fff;
+}
+.box3{
+  height: 130px;
+  width: 300px;
+  margin: 15px;
+  border-radius: 6px; 
+  background-color: #3494de;
+
+}
+.box3 h2{
+  margin-left: 30px;
+  float: left;
+  margin-top: 50px;
+  color: #fff;
+}
+.box3 i{
+  font-size: 80px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: #fff;
+}
